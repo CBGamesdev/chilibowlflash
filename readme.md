@@ -15,4 +15,4 @@ Me - For making this
 You - For playing it
 -
 
-Also, you don have to give credit if you iframe or embed this for your own website. I don´t care. 
+Also, you don´t have to give credit if you iframe or embed this for your own website. I don´t care. 
