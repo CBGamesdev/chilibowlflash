@@ -4,11 +4,13 @@ I do plan on adding more games on sperate pages so that I just have a collection
 
 Credit:
 -
-DXinteractive - Creator of Bloxorz Website: https://damienclarke.me/
+DXinteractive - Creator of Bloxorz  - Website: https://damienclarke.me/
 -
 Felix Wiesner - Creator of Miami Shark 
+-
+Tom Fulp / Dan Paladin - Creator(s) of Alien Hominid & Dad n' Me - Website: https://newgrounds.com
 - 
-Ruffle - Emulator used Website: https://ruffle.rs/#
+Ruffle - Emulator used - Website: https://ruffle.rs/#
 -
 Me - For making this
 -
