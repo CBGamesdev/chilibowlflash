@@ -10,36 +10,11 @@
     <link rel="stylesheet" type="text/css" href="../../style.css">
 
     
-
-        }
-        /* the canvas *must not* have any border or padding, or mouse coords will be wrong */
-        
-        #canvas {
-            padding-right: 0;
-            display: none;
-            border: 0px none;
-        }
-    </style>
 </head>
 
 <body>
-    <div class="header">
-        <a href="../../">
-            <img src="../../images/logo.png" class="logo" alt="logo" height="42" width="42">
-            <h1>
-                Bored In School Right Now Inc HTML
-            </h1>
-        </a>
-    </div>
-    <hr>
-    <h2>Mari0</h2>
-    <hr>
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="../../">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Mari0</li>
-        </ol>
-    </nav>
+  
+
     <hr>
     <center>
         <div>
@@ -62,7 +37,7 @@
         function drawLoadingText(text) {
             var canvas = loadingContext.canvas;
 
-            loadingContext.fillStyle = 'white';
+            loadingContext.fillStyle = 'red';
             loadingContext.fillRect(0, 0, canvas.scrollWidth, canvas.scrollHeight);
 
             loadingContext.font = '2em arial';
