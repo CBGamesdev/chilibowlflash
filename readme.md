@@ -4,12 +4,20 @@ I do plan on adding more games on sperate pages so that I just have a collection
 
 Credit:
 -
-DXinteractive - Creator of Bloxorz  - Website: https://damienclarke.me/
+DXinteractive - Creator of Bloxorz & Electricman 2  - Website: https://damienclarke.me/
 -
-Felix Wiesner - Creator of Miami Shark 
+Felix Wiesner - Creator of Miami Shark, New York Shark and Sydney Shark
 -
-Tom Fulp / Dan Paladin - Creator(s) of Alien Hominid & Dad n' Me - Website: https://newgrounds.com
+Tom Fulp / Dan Paladin - Creator(s) of Dad n' Me - Website: https://newgrounds.com
 - 
+Wolf Games - Creators of Gunblood
+-
+We Create Stuff - Creators of Portal: The Flash Version
+-
+Stabyouself - Creators of Mari0 - Website: stabyourself.net
+-
+Bored In School HTML - Orginal hosters of a HTML version of Mari0 - Github: https://github.com/PiSaucer/boredhtml
+-
 Ruffle - Emulator used - Website: https://ruffle.rs/#
 -
 Me - For making this
