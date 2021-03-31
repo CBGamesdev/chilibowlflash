@@ -20,6 +20,8 @@ Bored In School HTML - Orginal hosters of a HTML version of Mari0 - Github: http
 -
 Runouw - Creator of Super Mario 63
 -
+IMockery, Pesto Force and the Pox Box (Team Bobbo) - Creators of Abobbos big Adventure
+-
 Ruffle - Emulator used - Website: https://ruffle.rs/#
 -
 Me - For making this
