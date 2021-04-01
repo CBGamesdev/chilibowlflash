@@ -22,6 +22,8 @@ Runouw - Creator of Super Mario 63
 -
 IMockery, Pesto Force and the Pox Box (Team Bobbo) - Creators of Abobbos big Adventure
 -
+Dennis-Gid - Creator of Ultimate Flash Sonic
+-
 Ruffle - Emulator used - Website: https://ruffle.rs/#
 -
 Me - For making this
