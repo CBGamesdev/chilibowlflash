@@ -24,6 +24,10 @@ IMockery, Pesto Force and the Pox Box (Team Bobbo) - Creators of Abobbos big Adv
 -
 Dennis-Gid - Creator of Ultimate Flash Sonic
 -
+Miniclip - Creator(s?) of Commando
+-
+Team Meat - Creators of Meat Boy
+-
 Ruffle - Emulator used - Website: https://ruffle.rs/#
 -
 Me - For making this
