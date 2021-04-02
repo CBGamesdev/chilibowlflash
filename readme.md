@@ -28,6 +28,10 @@ Miniclip - Creator(s?) of Commando
 -
 Team Meat - Creators of Meat Boy
 -
+Lousi - Creator of Age of War
+-
+Puffballs United - Creator of Henry Stickmin
+-
 Ruffle - Emulator used - Website: https://ruffle.rs/#
 -
 Me - For making this
