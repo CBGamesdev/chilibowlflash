@@ -36,7 +36,7 @@ Xgen Studios - Creator of Defend Your Castle
 -
 JohnoChrome (FKA JohnBro) - Creator of Riddle School
 -
-Hammers R Us Inc. - Creator(s?) of Mario Combat
+D-SuN - Creator(s?) of Mario Combat
 -
 Ruffle - Emulator used - Website: https://ruffle.rs/#
 -
