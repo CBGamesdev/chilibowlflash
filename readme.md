@@ -41,6 +41,8 @@ JohnoChrome (FKA JohnBro) - Creator of Riddle School
 -
 D-SuN - Creator(s?) of Mario Combat
 -
+Splapp-Me-Do - Creator of the Impossible Quiz
+-
 Ruffle - Emulator used - Website: https://ruffle.rs/#
 -
 Me - For making this
