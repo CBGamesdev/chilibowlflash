@@ -11,9 +11,16 @@
 	</head>
 	<body>
 		<style> body {background-color: #000000 }</style>
-		<div style="margin: auto;>
+		<div style="margin: auto; width: 75%;">
 			<canvas id="nes-canvas" width="500" height="2500"/>
 		</div>
+		
+		window.addEventListener("keydown", function(e) {
+    // space, page up, page down and arrow keys:
+    if([32, 33, 34, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+        e.preventDefault();
+    }
+}, false);
 		
 	</body>
 </html>
