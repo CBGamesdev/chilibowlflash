@@ -43,7 +43,9 @@ D-SuN - Creator(s?) of Mario Combat
 -
 Splapp-Me-Do - Creator of the Impossible Quiz
 -
-Ruffle - Emulator used - Website: https://ruffle.rs/#
+Ruffle Team - Creator(S) of Emulator used - Website: https://ruffle.rs/#
+-
+Ben Firshman - Creator of (other) emulator used - Website: https://fir.sh/
 -
 Me - For making this
 -
