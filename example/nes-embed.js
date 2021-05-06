@@ -31,6 +31,12 @@ function onAnimationFrame(){
 	nes.frame();
 }
 
+window.addEventListener("keydown", function(e) {
+    if(["Space","ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].indexOf(e.code) > -1) {
+        e.preventDefault();
+    }
+}, false);
+
 function audio_remain(){
 	return (audio_write_cursor - audio_read_cursor) & SAMPLE_MASK;
 }
