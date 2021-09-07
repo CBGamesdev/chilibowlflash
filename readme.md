@@ -45,6 +45,12 @@ Splapp-Me-Do - Creator of the Impossible Quiz
 -
 Y8.com - Creator / Hosters of Slope (note: this version has ADs, which sucks.) 
 -
+Brad Borne - Creator of Fancy Pants
+-
+Max Abernethy - Creator of Cubefield
+-
+Taito Corporation - Insperation for Bubble Shooter (Creator of Flash Version n/a)
+-
 Ruffle Team - Creator(S) of Emulator used - Website: https://ruffle.rs/#
 -
 Ben Firshman - Creator of (other) emulator used - Website: https://fir.sh/
