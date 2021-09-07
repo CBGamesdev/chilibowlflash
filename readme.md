@@ -43,6 +43,8 @@ D-SuN - Creator(s?) of Mario Combat
 -
 Splapp-Me-Do - Creator of the Impossible Quiz
 -
+Y8.com - Creator / Hosters of Slope (note: this version has ADs, which sucks.) 
+-
 Ruffle Team - Creator(S) of Emulator used - Website: https://ruffle.rs/#
 -
 Ben Firshman - Creator of (other) emulator used - Website: https://fir.sh/
