@@ -1,6 +1,6 @@
-the trex runner game extracted from chrome offline err page.
+The Chrome Dinosaur Game from when your wifi goes out, now unblocked and embedable.
 
+Credits:
+http://wayou.github.io/t-rex-runner/
+Google - They made the game!
 
-[go and enjoy! :smile: ](http://wayou.github.io/t-rex-runner/)
-
-![chrome offline game cast](assets/screenshot.gif)
