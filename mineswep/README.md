@@ -1,1 +1,3 @@
-[README.md](https://github.com/CBGamesdev/chilibowlflash/files/7247971/README.md)
+Made by: https://github.com/ShizukuIchi
+
+A clone of Minesweeper, in java. Is small as hell but, accurate. I guess. 
