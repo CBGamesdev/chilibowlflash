@@ -1,9 +1,0 @@
-* {
-  tls off
-
-  cgi /key/down /app/keys
-  cgi /key/up /app/keys
-  cgi /key/press /app/keys
-  cgi /reset /app/reset
-  cgi /config /app/config
-}
