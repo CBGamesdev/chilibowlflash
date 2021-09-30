@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+set -e
+
+printf "Content-type: text/plain\n\n"
+
+case "$PATH_INFO" in
+  "/colorspace")
+    case "$QUERY_STRING" in
+      "RGB"|"Gray")
+        echo "${QUERY_STRING}" > /app/settings/colorspace
+      ;;
+    esac
+  ;;
+  "/quality")
+    case "$QUERY_STRING" in
+      15|25|50|75|100)
+        echo "${QUERY_STRING}" > /app/settings/quality
+      ;;
+      *)
+         echo "unknown quality"
+      ;;
+    esac
+  ;;
+  *)
+    echo "unknown: $PATH_INFO"
+  ;;
+esac

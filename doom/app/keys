@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+export DISPLAY=:0
+
+printf "Content-type: text/plain\n\n"
+
+key=$(echo $PATH_INFO | cut -c2- | sed 's/[^a-zA-Z0-9]//g')
+
+case $SCRIPT_NAME in
+  "/key/down")
+    xdotool keydown $key &
+  ;;
+  "/key/up")
+    xdotool keyup $key &
+  ;;
+esac

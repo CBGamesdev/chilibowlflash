@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+export DISPLAY=:0
+
+printf "Content-type: text/plain\n\n"
+
+killall -9 chocolate-doom
