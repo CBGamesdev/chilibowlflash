@@ -1,0 +1,22 @@
+.gallery {
+	position: relative;
+	border: 3px solid #999;
+	border-radius: 15px;
+	float: left;
+	margin: 0.5em;
+	text-align: center;
+}
+
+.gallery.disabled {
+	opacity: 0.5;
+}
+
+.gallery.next {
+	box-shadow: 0 0 4px 2px #f00;
+	border-color: #ccc;
+}
+
+.attacker-human .gallery:hover:not(.disabled) {
+	cursor: pointer;
+	border-color: #ccc;
+}
