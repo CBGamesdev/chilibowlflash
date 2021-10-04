@@ -57,6 +57,8 @@ ondras - creator of custom tetris (tetriscust in the files)
 -
 Google - Creators of the Dinosaur game (Wayou made the conversion)
 -
+iD Software - Creators of Wolfenstein (Port by https://github.com/loadx/html5-wolfenstein3D) 
+-
 Ruffle Team - Creator(S) of Emulator used - Website: https://ruffle.rs/#
 -
 Ben Firshman - Creator of (other) emulator used - Website: https://fir.sh/
