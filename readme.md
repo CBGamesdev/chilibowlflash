@@ -51,6 +51,12 @@ Max Abernethy - Creator of Cubefield
 -
 Taito Corporation - Insperation for Bubble Shooter (Creator of Flash Version n/a)
 -
+Nintendo - Creators of Super Mario 64 (Code from 28klotlucas2, though he is not the original creator of the port.)
+-
+ondras - creator of custom tetris (tetriscust in the files)
+-
+Google - Creators of the Dinosaur game (Wayou made the conversion)
+-
 Ruffle Team - Creator(S) of Emulator used - Website: https://ruffle.rs/#
 -
 Ben Firshman - Creator of (other) emulator used - Website: https://fir.sh/
