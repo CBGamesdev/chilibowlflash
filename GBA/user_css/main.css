@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body:hover div#control_panel {
+    opacity: 0;
+}
+#load_panel, #save_controls {
+    text-align: left;
+}
+#load_panel label, #save_controls label {
+    margin-right: 5px;
+}
+input {
+    max-width: 150px;
+}
+#play_controls label {
+    float: left;
+    clear: left;
+}
+#play_controls input.checkbox {
+    float: right;
+    clear: right;
+}
+#pause {
+    display: none;
+}
+div#log_control button {
+    clear: none;
+}
+div#control_panel {
+    position: absolute;
+    left: 0px;
+    width: 250px;
+    bottom: 0px;
+    top: 0px;
+    background-color: rgb(220, 220, 220);
+    padding: 5px 3px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+div#control_panel:hover {
+    opacity: 1 !important;
+}
+div#playControls {
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+div#playControls button#play {
+    margin-right: 5px;
+}
+div#main {
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(200, 200, 200);
+}
+div#main canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+canvas {
+    cursor: none;
+}
+span#tempMessage {
+    color: red;
+    bottom: 0px;
+    position: absolute;
+    right: 0px;
+    display: none;
+    font-size: 40pt;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: bottom;
+    font-family: monospace;
+}
