@@ -59,9 +59,15 @@ Google - Creators of the Dinosaur game (Wayou made the conversion)
 -
 iD Software - Creators of Wolfenstein (Port by https://github.com/loadx/html5-wolfenstein3D) 
 -
+Stayko (https://github.com/stayko) - Creator of JS Blackjack used
+-
 Ruffle Team - Creator(S) of Emulator used - Website: https://ruffle.rs/#
 -
 Ben Firshman - Creator of (other) emulator used - Website: https://fir.sh/
+-
+Aidan Harris - Creator of LodlineGBA basis for (other, other) emulator used
+-
+jackmonty753 - Hoster of GBABandicoot, edited version of emulator above
 -
 Me - For making this
 -
