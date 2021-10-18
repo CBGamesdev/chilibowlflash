@@ -61,6 +61,8 @@ iD Software - Creators of Wolfenstein (Port by https://github.com/loadx/html5-wo
 -
 Stayko (https://github.com/stayko) - Creator of JS Blackjack used
 -
+Atari - Creator(s) of Pong, Centipede, and more
+-
 Ruffle Team - Creator(S) of Emulator used - Website: https://ruffle.rs/#
 -
 Ben Firshman - Creator of (other) emulator used - Website: https://fir.sh/
