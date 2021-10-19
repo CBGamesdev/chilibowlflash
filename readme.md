@@ -63,6 +63,8 @@ Stayko (https://github.com/stayko) - Creator of JS Blackjack used
 -
 Atari - Creator(s) of Pong, Centipede, and more
 -
+Shift-Refresh Consulting - Creator(s?) of Flash version of Pong
+-
 Ruffle Team - Creator(S) of Emulator used - Website: https://ruffle.rs/#
 -
 Ben Firshman - Creator of (other) emulator used - Website: https://fir.sh/
