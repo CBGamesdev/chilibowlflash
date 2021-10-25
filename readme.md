@@ -11,6 +11,8 @@ DXinteractive - Creator of Bloxorz & Electricman 2  - Website: https://damiencla
 -
 Felix Wiesner - Creator of Miami Shark, New York Shark and Sydney Shark
 -
+Paul Neave - Porter of Tetris, Pacman, Asteroids and more - Website: https://neave.com
+-
 Tom Fulp / Dan Paladin - Creator(s) of Dad n' Me & Alien Hominid - Website: https://newgrounds.com
 - 
 Wolf Games - Creators of Gunblood & Apple Shooter
