@@ -67,6 +67,8 @@ Atari - Creator(s) of Pong, Centipede, and more
 -
 Shift-Refresh Consulting - Creator(s?) of Flash version of Pong
 -
+gamedesign.jp - Creator(s?) of Flash Version of Hanafuda and the How to Guide 
+-
 Ruffle Team - Creator(S) of Emulator used - Website: https://ruffle.rs/#
 -
 Ben Firshman - Creator of (other) emulator used - Website: https://fir.sh/
