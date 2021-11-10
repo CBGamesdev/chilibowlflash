@@ -5,6 +5,8 @@ This is different than the ¨pack¨ as this version is just each game on its own
 Also, in case something happens, heres a backup:
 https://chili-bowl-flashv3.glitch.me/
 
+Note: I do not take credit for ANY of this website except for the code housing all of these things together. 
+
 Credit:
 -
 DXinteractive - Creator of Bloxorz & Electricman 2  - Website: https://damienclarke.me/
@@ -71,7 +73,9 @@ gamedesign.jp - Creator(s?) of Flash Version of Hanafuda and the How to Guide
 -
 Mojang - Creator(s) of Minecraft and its ¨Classic¨ Webport
 -
-3kh0 - Reverse Engineer of Minecraft Classic
+3kh0 - Reverse Engineer of Minecraft Classic & Retro Bowl
+-
+New Star Games - Creator(s?) of Retro Bowl
 -
 Ruffle Team - Creator(S) of Emulator used - Website: https://ruffle.rs/#
 -
