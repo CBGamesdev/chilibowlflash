@@ -77,6 +77,8 @@ Mojang - Creator(s) of Minecraft and its ¨Classic¨ Webport
 -
 New Star Games - Creator(s?) of Retro Bowl
 -
+Gabriele Cirulli - Creator of 2048 - Github: https://github.com/gabrielecirulli
+-
 Ruffle Team - Creator(S) of Emulator used - Website: https://ruffle.rs/#
 -
 Ben Firshman - Creator of (other) emulator used - Website: https://fir.sh/
