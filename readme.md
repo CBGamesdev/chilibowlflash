@@ -87,7 +87,7 @@ Aidan Harris - Creator of LodlineGBA basis for (other, other) emulator used
 -
 jackmonty753 - Hoster of GBABandicoot, edited version of emulator above
 -
-Me - For making this
+Me (SeanS) - For making this
 -
 You - For playing it
 -
