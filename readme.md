@@ -79,6 +79,8 @@ New Star Games - Creator(s?) of Retro Bowl
 -
 Gabriele Cirulli - Creator of 2048 - Github: https://github.com/gabrielecirulli
 -
+Rye Terrell - Creator of Astray - Github: https://github.com/wwwtyro
+-
 Ruffle Team - Creator(S) of Emulator used - Website: https://ruffle.rs/#
 -
 Ben Firshman - Creator of (other) emulator used - Website: https://fir.sh/
