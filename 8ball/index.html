@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Biliardo</title>
+		<style type="text/css">
+			#game {
+				border:2px solid black;
+				position: absolute;
+			    top: 50%; 
+			    left: 50%;
+			    width: 800px;
+			    height: 600px;
+			    margin-top: -300px;
+			    margin-left: -400px;
+			    box-shadow: 0px 0px 10px #000; 
+			}
+			body {
+				background-color: gray;
+			}
+			#footer {
+				position: absolute;
+				bottom: 0px;
+				right: 0%;
+				margin: 5px;
+				font-size: 12px;
+				font-family: sans-serif;
+			}
+		</style>
+		<!-- libraries --->
+		<script src="./lib/box2dweb.js"></script>
+		<script src="./lib/utils.js"></script>
+		<!-- objects --->
+		<script src="./src/obj/background.js"></script>
+		<script src="./src/obj/menu.js"></script>
+		<script src="./src/obj/menuButton.js"></script>
+		<script src="./src/obj/table.js"></script>
+		<script src="./src/obj/balls.js"></script>
+		<script src="./src/obj/cue.js"></script>
+		<script src="./src/obj/tunnel.js"></script>
+		<script src="./src/obj/logo.js"></script>
+		<!-- controls -->
+		<script src="./src/controls/shotControl.js"></script>
+		<script src="./src/controls/ballControl.js"></script>
+		<script src="./src/controls/messageControl.js"></script>
+		<script src="./src/controls/vsBallControl.js"></script>
+		<!-- views -->
+		<script src="./src/views/intro.js"></script>
+		<script src="./src/views/mainMenu.js"></script>
+		<script src="./src/views/practice.js"></script>
+		<script src="./src/views/vsMode.js"></script>
+		<script src="./src/views/challenge.js"></script>
+		<script src="./src/views/editor.js"></script>
+		<script src="./src/views/credits.js"></script>
+	</head>
+	<body>
+		<canvas id="game"></canvas>
+		<script src="./src/game.js"></script>
+		<div id="footer">
+			<i>developed by <a href="mailto:barso91@gmail.com">Marco Barsotti</a></i>
+		</div>
+	</body>
+</html>
