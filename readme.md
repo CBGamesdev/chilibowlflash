@@ -73,13 +73,11 @@ gamedesign.jp - Creator(s?) of Flash Version of Hanafuda and the How to Guide
 -
 Mojang - Creator(s) of Minecraft and its ¨Classic¨ Webport
 -
-3kh0 - Reverse Engineer of Minecraft Classic & Retro Bowl
+3kh0 - Reverse Engineer of Minecraft Classic, Retro Bowl and Basket Ball Stars
 -
 New Star Games - Creator(s?) of Retro Bowl
 -
 Gabriele Cirulli - Creator of 2048 - Github: https://github.com/gabrielecirulli
--
-Rye Terrell - Creator of Astray - Github: https://github.com/wwwtyro
 -
 Ruffle Team - Creator(S) of Emulator used - Website: https://ruffle.rs/#
 -
