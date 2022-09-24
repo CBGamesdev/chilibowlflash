@@ -1,3 +1,0 @@
--a very creative take on good ol´ tetris. 
--Made by: https://github.com/ondras
--Tetris made by: The Tetris Corporation (Am I right on that? Anyone know?)
