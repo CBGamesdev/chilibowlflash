@@ -1,42 +1,30 @@
 
-<!DOCTYPE html>
-<html lang="en"><head<script>
-/* mp-start */
-window['___jsl']=window['___jsl']||{};
-/* mp-end */
-</script><script>window['__isgadget']=true;</script><script src="js/core.js"></script><script>window['___jsl'] = window['___jsl'] || {};(window['___jsl']['ci'] = (window['___jsl']['ci'] || [])).push({"core.io":{"jsonProxyUrl":"//%host%/gadgets/makeRequest","proxyUrl":"//www-sites-opensocial.googleusercontent.com/gadgets/proxy/refresh=%refresh%&container=%container%%rewriteMime%&gadget=%gadget%/%rawurl%"},"shindig.auth":{"authToken":"","trustedJson":""},"core.util":{"core":{}}});gadgets.config.init({"core.io":{"jsonProxyUrl":"//%host%/gadgets/makeRequest","proxyUrl":"//www-sites-opensocial.googleusercontent.com/gadgets/proxy/refresh=%refresh%&container=%container%%rewriteMime%&gadget=%gadget%/%rawurl%"},"shindig.auth":{"authToken":"","trustedJson":""},"core.util":{"core":{}}});
-</script><script>gadgets.Prefs.setMessages_({});gadgets.Prefs.setDefaultPrefs_({});gadgets.io.preloaded_=[];</script><link href="style.css" rel="stylesheet" type="text/css">
+<!doctype html>
+<html lang="en">
+<html>
+<head>
 <title>WAFLASH</title>
-
-
-</head><body dir="ltr"><script>
+<link rel="stylesheet" href="style.css">
+<script>
 		var gameConfig = {
 			swfUrl: "https://cdn.jsdelivr.net/gh/CBGamesdev/chilibowlflash/waflash/run_2.swf"		
 		}
 </script>
+</head>
+<body>
 <div id="waflashContainer">
 <canvas class="waflashCanvas" id="canvas" tabindex="1"></canvas>
 <div id="waflashStatus" style="display: none;">Playing...</div>
 <script>
 		var ua = navigator.userAgent.toLowerCase();
-		if ( (navigator.appName =='Netscape' && ua.indexOf('trident') != -1) || (ua.indexOf("msie") != -1)) {
+		if ( (navigator.appName == 'Netscape' && ua.indexOf('trident') != -1) || (ua.indexOf("msie") != -1)) {
     		var waf = document.getElementById('waflashStatus');
-			waf.style.display ='block';
-			waf.innerText ='??? ?????(IE) ??? ??? ???? ???? !\n??, ???? ?? ????? ??????.';
+			waf.style.display = 'block';
+			waf.innerText = '인터넷 익스플로어(IE) 에서는 게임이 실행되지 않습니다 !\n크롬, 엣지등의 다른 브라우저를 이용해주세요.';
 			gtag('event', 'connect_from_ie', {'event_category': 'error', 'event_label': ua });
 		}
 	</script>
-<div id="waflashStatus" style="display: none;">Playing...</div>
-<script>
-		var ua = navigator.userAgent.toLowerCase();
-		if ( (navigator.appName =='Netscape' && ua.indexOf('trident') != -1) || (ua.indexOf("msie") != -1)) {
-    		var waf = document.getElementById('waflashStatus');
-			waf.style.display ='block';
-			waf.innerText ='??? ?????(IE) ??? ??? ???? ???? !\n??, ???? ?? ????? ??????.';
-			gtag('event', 'connect_from_ie', {'event_category': 'error', 'event_label': ua });
-		}
-	</script>
-<script crossorigin="anonymous" type="module">
+<script type="module" crossorigin="anonymous">
 		let is_mobile = /Mobi/i.test(window.navigator.userAgent);
 		if (is_mobile) {
 			function scrollToSubject() {
@@ -79,15 +67,19 @@ window['___jsl']=window['___jsl']||{};
 				return true;
 			}
 		})());
+		
+		var golddate=Date;
+		Date.now=function(){
+			var a=new golddate();
+			a.setFullYear('2022'); a.setMonth('06'); a.setDate('01');
+			return a.getTime();
+		}
+		
 		import {
 			createWaflash
-		} from 'https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@3f0db6b9a0bed7641e3ed167fc07070b891b72fb/js/waflash-player.min.js';
+		} from './js/waflash-player.min.js?15';
 		createWaflash(gameConfig.swfUrl, window.wafOptions || {});
 	</script>
 </div>
-
-
-
-
-<script>gadgets.util.runOnLoadHandlers();</script><script>window.google.csi.tickDl();
-</script></body></html>
+</body>
+</html>
