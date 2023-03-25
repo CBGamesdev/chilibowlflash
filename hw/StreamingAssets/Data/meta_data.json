@@ -1,0 +1,102 @@
+{
+	"characters": [
+		{ "name": "wheelchair guy", "id":1 },
+		{ "name": "segway guy", "id":2},
+		{
+			"name": "irresponsible dad",
+			"id": 3
+		}
+	],
+	"levels": [
+		{
+			"id": 0,
+			"name": "Obstacle Course?",
+			"designer": "fans of happy wheels!",
+			"rating": 4.3442,
+			"play_times": 464464,
+			"votes": 889,
+			"playable_characters": [],
+			"description": "Prepare for the thrill of your life!  Watch out for bad things.  This level isn't too hard.  I guess try it out or something."
+		},
+		{
+			"id":  1,
+			"name": "Gut Bus Extreme!",
+			"designer": "fans of happy wheels!",
+			"rating": 4.3770,
+			"play_times": 31367,
+			"votes": 305,
+			"playable_characters": [],
+			"description": "Heavily tested with all characters.  Spacebar grabs onto the inside of the bus, helping you stay inside- use sparingly! Grabbing alters the physics and causes unpredictability.  Feel free to make new versions, add vehicles, change jumps, etc.  Give credit to here in credits if you do."
+		},
+		{
+			"id": 2,
+			"name": "BMX_Park II",
+			"designer": "fans of happy wheels!",
+			"rating": 4.4842,
+			"play_times": 12654,
+			"votes": 95,
+			"playable_characters": [ 3 ],
+			"description": "It's back with larger jumps, a massive loop (watch your head), and higher speeds! Keep an eye out for more spikes, landmines, and a new grinder. Enjoy!  -Reuploaded for minor bug fix"
+		},
+		{
+			"id": 3,
+			"name": "SnowyMountain*final*",
+			"designer": "fans of happy wheels!",
+			"rating": 4.3673,
+			"play_times": 11598,
+			"votes": 98,
+			"playable_characters": [ 2 ],
+			"description": "Press Z at the start and hold on to the cable-car. 7 different ways to finish, can you find them all?  Enjoy! ;)"
+		},
+		{
+			"id": 4,
+			"name": "Dawn of the Dead.lv1",
+			"designer": "fans of happy wheels!",
+			"rating": 4.3465,
+			"play_times": 12865,
+			"votes": 101,
+			"playable_characters": [ 2 ],
+			"description": "*Level 1* Mr. Black worked with you at BioChem labs, until he went mad and dumped a neurotoxin into the towns water supply. The toxin turns people into blood thirsty monsters; luckily you are immune, but you need to release the antidote, save the town, and get revenge. *hint* C4 in your Briefcase"
+		},
+		{
+			"id": 5,
+			"name": "A large Satan eats u",
+			"designer": "fans of happy wheels!",
+			"rating": 4.3000,
+			"play_times": 9714,
+			"votes": 60,
+			"playable_characters": [],
+			"description": "oh no!"
+		},
+		{
+			"id": 6,
+			"name": "TrapTrac",
+			"designer": "fans of happy wheels!",
+			"rating": 4.2000,
+			"play_times": 9987,
+			"votes": 85,
+			"playable_characters": [2],
+			"description": ""
+		},
+		{
+			"id": 7,
+			"name": "IT KEEPS HAPPENING!",
+			"designer": "fans of happy wheels!",
+			"rating": 4.0488,
+			"play_times": 29009,
+			"votes": 205,
+			"playable_characters": [],
+			"description": "Abandon your vehicle and swing your way to success.  Remember, after ejecting you can grab onto things with spacebar.   **THIS IS HARD**"
+		},
+		{
+			"id": 8,
+			"name": "Rope Swings",
+			"designer": "fans of happy wheels!",
+			"rating": 3.3254,
+			"play_times": 188945,
+			"votes": 252,
+			"playable_characters": [ 2 ],
+			"description": ""
+		}
+	]
+}
