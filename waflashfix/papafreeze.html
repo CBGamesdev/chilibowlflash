@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en"><head><link href="https://cdn.jsdelivr.net/gh/CBGamesdev/chilibowlflash/waflashfix/style.css" rel="stylesheet" type="text/css">
+<title>WAFLASH</title>
+
+
+</head>
+  <body dir="ltr"><script>
+		var gameConfig = {
+			swfUrl: "https://cdn.jsdelivr.net/gh/CBGamesdev/chilibowlflash/waflashfix/games/papasfreezeria.swf"		
+		}
+</script>
+<div id="waflashContainer">
+<canvas class="waflashCanvas" id="canvas" tabindex="1"></canvas>
+<div id="waflashStatus" style="display: none;">Playing...</div>
+<script>
+		var ua = navigator.userAgent.toLowerCase();
+		if ( (navigator.appName =='Netscape' && ua.indexOf('trident') != -1) || (ua.indexOf("msie") != -1)) {
+    		var waf = document.getElementById('waflashStatus');
+			waf.style.display ='block';
+			waf.innerText ='??? ?????(IE) ??? ??? ???? ???? !\n??, ???? ?? ????? ??????.';
+			gtag('event', 'connect_from_ie', {'event_category': 'error', 'event_label': ua });
+		}
+	</script>
+<script crossorigin="anonymous" type="module">
+		let is_mobile = /Mobi/i.test(window.navigator.userAgent);
+		if (is_mobile) {
+			function scrollToSubject() {
+				try {
+					window.scrollTo({
+						top: 100,
+						left: 0,
+						behavior: 'smooth'
+					});
+				} catch (e) {}
+			}
+			scrollToSubject();
+			window.addEventListener("orientationchange", function() {
+				setTimeout(scrollToSubject, 100);
+			});
+		} else {
+			document.getElementById('canvas').focus();
+		}
+		document.getElementById('canvas').addEventListener("keydown", function(ev) {
+			ev.preventDefault();
+			ev.stopPropagation();
+		});
+		document.getElementById('canvas').addEventListener("click", function() {
+			document.getElementById('canvas').focus();
+		});
+		document.addEventListener("mousedown", (function() {
+			const canvasElement = document.getElementById('canvas');
+			let focused = false;
+			return function(ev) {
+				if (ev.target == canvasElement) {
+					if (!focused) {
+						canvasElement.focus();
+						focused = true;
+					}
+				} else {
+					if (focused) {
+						focused = false;
+					}
+				}
+				return true;
+			}
+		})());
+		import {
+			createWaflash
+		} from 'https://cdn.jsdelivr.net/gh/CBGamesdev/chilibowlflash/waflashfix/js/waflash-player.min.js';
+		createWaflash(gameConfig.swfUrl, window.wafOptions || {});
+	</script>
+</div>
+<script src="https://cdn.jsdelivr.net/gh/CBGamesdev/chilibowlflash/waflashfix/addc4348-16c2-4645-9dff-f99b962e39ef_scr.js"></script>
+
+<script>gadgets.util.runOnLoadHandlers();</script><script>window.google.csi.tickDl();
+</script></body></html>
