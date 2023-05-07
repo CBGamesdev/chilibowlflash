@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title></title>
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: black;
+            color: white;
+            overflow: hidden;
+        }
+        
+        #canvas {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: auto;
+            height: 100%;
+            background: black;
+            padding: 0;
+            margin: 0;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            /*pointer-events:none;*/
+        }
+        
+        .emularity-splash-screen {
+            text-align: center;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 50%;
+            margin: 0;
+            box-sizing: border-box;
+            color: #000;
+        }
+    </style>
+    <!--Favicon Information-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png?v=2bAXkRLXOR">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png?v=2bAXkRLXOR">
+    <link rel="icon" type="image/png" sizes="192x192" href="../favicon/android-chrome-192x192.png?v=2bAXkRLXOR">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png?v=2bAXkRLXOR">
+    <link rel="manifest" href="../favicon/site.webmanifest?v=2bAXkRLXOR">
+    <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg?v=2bAXkRLXOR" color="#bd8b40">
+    <link rel="shortcut icon" href="../favicon/favicon.ico?v=2bAXkRLXOR">
+    <meta name="msapplication-TileColor" content="#da9835">
+    <meta name="msapplication-TileImage" content="../favicon/mstile-144x144.png?v=2bAXkRLXOR">
+    <meta name="msapplication-config" content="../favicon/browserconfig.xml?v=2bAXkRLXOR">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Schoolgrounds ">
+    <meta name="description" content="By Students For Students">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Schoolgrounds">
+    <meta property="og:description" content="By Students For Students">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Schoolgrounds">
+    <meta property="twitter:description" content="By Students For Students">
+</head>
+
+<body>
+    <canvas id="canvas" style="width: 50%; height: 50%; display: block; margin: 0 auto;" onClick="window.focus();" />
+    <script type="text/javascript" src="js/es6-promise.js"></script>
+    <script type="text/javascript" src="js/browserfs.min.js"></script>
+    <script type="text/javascript" src="js/loader.js"></script>
+
+    <script type="text/javascript">
+        function $_GET(param) {
+            var vars = {};
+            window.location.href.replace(location.hash, '').replace(
+                /[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
+                function(m, key, value) { // callback
+                    vars[key] = value !== undefined ? value : '';
+                }
+            );
+            if (param) {
+                return vars[param] ? vars[param] : null;
+            }
+            return vars;
+        }
+
+        var softs = {
+
+            //Games
+            //dosbox/?soft=
+            OREGON: {
+                file: 'https://cdn.schgnd.ml/dosbox/softs/OREGON.zip',
+                cmd: 'OREGON/OREGON.exe',
+                pointer: true
+            },
+            MTT: {
+                file: 'https://cdn.schgnd.ml/dosbox/softs/MTT.zip',
+                cmd: 'MARIOTT/MARIO.EXE',
+                pointer: true
+            },
+            DK: {
+                file: 'https://cdn.schgnd.ml/dosbox/softs/DK.zip',
+                cmd: 'Donkey~1/DK.EXE',
+                pointer: true
+            },
+            MB: {
+                file: 'https://cdn.schgnd.ml/dosbox/softs/MB.zip',
+                cmd: 'mario.exe',
+                pointer: true
+            },
+            MGG: {
+                file: 'https://cdn.schgnd.ml/dosbox/softs/MGG.zip',
+                cmd: 'Mariog~1/mario.exe',
+                pointer: true
+            },
+            TTE: {
+                file: 'https://cdn.schgnd.ml/dosbox/softs/TTE.zip',
+                cmd: 'Thomasth/TOM.EXE',
+                pointer: true
+            },
+            KQ1: {
+                file: 'https://cdn.schgnd.ml/dosbox/softs/KQ1.zip',
+                cmd: 'KQ1NEW/SCIV.EXE',
+                pointer: true
+            },
+            DOOM: {
+                file: 'https://cdn.schgnd.ml/dosbox/softs/DOOM.zip',
+                cmd: 'DOOM/DOOM.EXE',
+                pointer: true
+            },
+            DOOM2: {
+                file: 'https://cdn.schgnd.ml/dosbox/softs/DOOM2.zip',
+                cmd: 'DOOM2/DOOM2.EXE',
+                pointer: true
+            },
+            WOLF3D: {
+                file: 'https://cdn.schgnd.ml/dosbox/softs/WOLF3D.zip',
+                cmd: 'WOLF3D/WOLF3D.EXE',
+                pointer: true
+            },
+            DUKE3D: {
+                file: 'https://cdn.schgnd.ml/dosbox/softs/DUKE3D.zip',
+                cmd: './DUKE3D.EXE',
+                pointer: true
+            },
+            QUAKE: {
+                file: 'https://cdn.schgnd.ml/dosbox/softs/QUAKE.zip',
+                cmd: 'QUAKE/QUAKE.EXE',
+                pointer: true
+            },
+            DAGLITE: {
+                file: 'https://cdn.schgnd.ml/dosbox/softs/DAGLITE.zip',
+                cmd: 'DAGLITE/DAGDEMO.EXE',
+                pointer: true
+            },
+            WAR1: {
+                file: 'https://cdn.schgnd.ml/dosbox/softs/WAR1.zip',
+                cmd: 'WAR.EXE',
+                pointer: true
+            }
+
+        }
+        var file = "OREGON";
+        if ($_GET('soft') != null) {
+            if (softs[$_GET('soft')] != undefined) {
+                file = $_GET('soft')
+                    //parent.$notif('Loading '+$_GET('soft').replace(/_/g," ")+'.')
+            };
+        };
+        //
+        // DOS FILES
+        if (softs[file].machine == undefined) {
+            var dosbox = new Emulator(document.querySelector("#canvas"),
+                null,
+                new DosBoxLoader(DosBoxLoader.emulatorJS("js/dosbox-sync.js"),
+                    DosBoxLoader.locateAdditionalEmulatorJS(locateAdditionalFiles),
+                    DosBoxLoader.nativeResolution(640, 400),
+                    DosBoxLoader.mountZip("c",
+                        //DosBoxLoader.fetchFile("Software", "softs/" + softs[file].file)),
+                        DosBoxLoader.fetchFile("Software", softs[file].file)),
+                    DosBoxLoader.startExe(softs[file].cmd)));
+            dosbox.start({
+                waitAfterDownloading: false
+            });
+
+            function locateAdditionalFiles(filename) {
+                if (filename === "dosbox.html.mem") {
+                    return "js/dosbox-sync.mem";
+                }
+                return "js/" + filename;
+            }
+
+        }
+        //
+        // PC98 DOS FILES
+        if (softs[file].machine == 'PC98') {
+            var dosbox = new Emulator(document.querySelector("#canvas"),
+                null,
+                new PC98DosBoxLoader(PC98DosBoxLoader.emulatorJS("js/dosbox-x.js"),
+                    PC98DosBoxLoader.emulatorWASM("js/dosbox-x.wasm"),
+                    PC98DosBoxLoader.locateAdditionalEmulatorJS(locateAdditionalFiles),
+                    PC98DosBoxLoader.nativeResolution(640, 480),
+                    PC98DosBoxLoader.mountZip("c",
+                        PC98DosBoxLoader.fetchFile("Game File",
+                            "softs/" + softs[file].file)),
+                    PC98DosBoxLoader.mountZip("y",
+                        PC98DosBoxLoader.fetchFile("ROM File",
+                            "js/font.zip")),
+
+                    PC98DosBoxLoader.startExe(softs[file].cmd)))
+            dosbox.start({
+                waitAfterDownloading: true
+            });
+
+            function locateAdditionalFiles(filename) {
+                if (filename === "dosbox.html.mem") {
+                    return "js/dosbox-sync.mem";
+                }
+                return "js/" + filename;
+            }
+
+
+        }
+
+        if (softs[file].pointer == false) {
+            c = document.getElementById("canvas")
+            c.style.cursor = "none"
+        };
+    </script>
+</body>
+
+</html>
