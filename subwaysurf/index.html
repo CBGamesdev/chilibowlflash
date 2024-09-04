@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Subway Surfers</title>
+    <script type="text/javascript">
+        document.domain = '4399.com'
+    </script>
+    <script type="text/javascript" src="4399.js"></script>
+    <script>
+        window.config = {
+            loader: 'unity',
+            debug: false,
+            maxRatio: 16 / 9,
+            minRatio: 9 / 16,
+
+            title: 'Subway Surfers',
+            thumbnail: './4399.png',
+            numScreenshots: 4,
+
+            unityVersion: '2019.2.0f1',
+            unityWebglBuildUrl: 'Build\/StPetersburg.json',
+
+            fileSize: 35,
+            cachedDecompressedFileSizes: {
+                'StPetersburg.asm.code.unityweb': 9057213,
+                'StPetersburg.asm.framework.unityweb': 89460,
+                'StPetersburg.asm.memory.unityweb': 1004462,
+                'StPetersburg.data.unityweb': 18352095,
+                'StPetersburg.wasm.code.unityweb': 7336893,
+                'StPetersburg.wasm.framework.unityweb': 93791,
+            },
+        };
+    </script>
+</head>
+
+<body>
+    <script src="./loaders/v3/master-loader.js"></script>
+
+    <script type="text/javascript">
+        window.SDK_OPTIONS = {
+            gameId: "dkbsawti14y62zfk4khg33xgk12guaf7",
+            onEvent: function(a) {
+                switch (a.name) {
+                    case "SDK_GAME_PAUSE":
+                        // pause game logic / mute audio
+                        break;
+                    case "SDK_GAME_START":
+                        // advertisement done, resume game logic and unmute audio
+                        break;
+                    case "SDK_READY":
+                        // when sdk is ready
+                        break;
+                }
+            }
+        };
+        (function(a, b, c) {
+            var d = a.getElementsByTagName(b)[0];
+            a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "", d.parentNode.insertBefore(a, d))
+        })(document, "script", "gamemonetize-sdk");
+    </script>
+</body>
+
+<script type="text/javascript">
+    function google_analytics() {
+        if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
+            sdk.showBanner();
+        }
+    };
+
+    function google_analytics_ID() {
+        if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
+            sdk.showBanner();
+        }
+    };
+    setTimeout(function() {
+        google_analytics();
+    }, 1000);
+    setInterval(function() {
+        google_analytics_ID();
+    }, 65000);
+</script>
+
+ 
+
+</body>
+
+</html>
