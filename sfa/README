@@ -1,0 +1,60 @@
+Street Fighter Alpha
+--------------------
+
+Try it out here:
+https://gamedev8.github.io/js-sfa/default.htm
+--------------------
+
+
+This is more of a "Chrome experiment". I have not really tested it in Firefox, Safari or IE.
+
+Playable Characters (so far)
+--------------------
+Ken
+Ryu
+Sagat
+MBison
+Akuma
+
+Player 1 keys:
+--------------------
+Pause (Next frame): O
+Resume: P
+Coin: Control
+Start: Enter
+light punch: A
+medium punch: S
+hard punch: D
+light kick: Z
+medium kick: X
+hard kick: C
+turn around: F
+walk, crouch, jump: Arrow keys
+
+Tips
+--------------------
+In the browser console, use the debug_.practice() function to quickly start practice matches.
+
+//Ken vs Ryu
+debug_.practice();
+
+//Dramatic Battle
+debug_.practice([{A:CHARACTERS.KEN}, {A:CHARACTERS.RYU, C:true}], [{A:CHARACTERS.MBISON, C:true}], "dramatic_battle");
+
+//start a 1 on 1 match vs Akuma (AI difficulty is maxed out)
+debug_.practice([{A:CHARACTERS.KEN}], [{A:CHARACTERS.AKUMA, C:true, D:100}], "guy")
+
+//start a 2 on 2 match
+debug_.practice([{A:CHARACTERS.KEN}, {A:CHARACTERS.RYU, B:true, C:true}], [{A:CHARACTERS.MBISON, C:true}, {A:CHARACTERS.SAGAT, C:true}], "guy")
+
+//instantly give level 3 energy
+debug_.maxOutEnergy();
+
+//brings up the projectile editor
+debug_.showProjectileEditor();
+
+//hides the projectile editor
+debug_.hideProjectileEditor();
+
+
+Join the chat at https://gitter.im/gamedev8/js-sfa
